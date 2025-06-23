@@ -13,7 +13,7 @@ const NotFound = () => {
     const socketRef = useRef();
 
     useEffect(() => {
-        socketRef.current = io('http://localhost:3002/');
+        socketRef.current = io('http://103.155.161.56:3002/');
 
         socketRef.current.on('connect', () => {
             console.log('Connected to WebSocket server');
