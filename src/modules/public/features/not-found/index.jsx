@@ -4,7 +4,7 @@ import './styles.scss';
 
 import { convertUtcDateTimeToLocalTz } from '~/utils/date-time';
 
-const listTiktokUsernames = ['divistore.1', 'meoo2hand.7', 'meooday13', "huyen0897", "tutustoredayy"];
+const listTiktokUsernames = ['divistore.1', 'meoo2hand.7', 'meooday13', 'huyen0897', 'tutustoredayy'];
 
 const NotFound = () => {
     const [messages, setMessages] = useState([]);
@@ -63,19 +63,22 @@ const NotFound = () => {
                   body {
                     font-family: monospace;
                     font-size: 14px;
-                    margin-bottom: 100px;
+                    margin-bottom: 0;
                     padding: 12px;
                     line-height: 1.4;
                   }
                   .line {
                     margin-bottom: 4px;
                   }
+                    .line-break {
+                    margin-top: 58px;}
                 </style>
               </head>
               <body>
                 <div class="line"><strong>${nickname}</strong></div>
                 <div class="line">${comment}</div>
                 <div class="line">${time}</div>
+                <div class="line-break">-----------------</div>
       
                 <script>
                   window.onload = function () {
