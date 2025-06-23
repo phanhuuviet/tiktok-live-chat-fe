@@ -71,7 +71,7 @@ const NotFound = () => {
                     margin-bottom: 4px;
                   }
                     .line-break {
-                    margin-top: 100px;}
+                    margin-top: 130px;}
                 </style>
               </head>
               <body>
