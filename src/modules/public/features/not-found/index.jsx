@@ -4,7 +4,7 @@ import './styles.scss';
 
 import { convertUtcDateTimeToLocalTz } from '~/utils/date-time';
 
-const listTiktokUsernames = ['divistore.1', 'meoo2hand.7', 'meooday13', "huyen0897"];
+const listTiktokUsernames = ['divistore.1', 'meoo2hand.7', 'meooday13', "huyen0897", "tutustoredayy"];
 
 const NotFound = () => {
     const [messages, setMessages] = useState([]);
