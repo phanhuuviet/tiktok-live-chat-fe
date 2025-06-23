@@ -63,7 +63,7 @@ const NotFound = () => {
                   body {
                     font-family: monospace;
                     font-size: 14px;
-                    margin: 0;
+                    margin-top: -100px;
                     padding: 12px;
                     line-height: 1.4;
                   }
